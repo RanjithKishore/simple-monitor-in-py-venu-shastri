@@ -28,7 +28,10 @@ def print_string(str):
   print(str)
   return None
 
+def print_dummy(str):
+    return None
+
 
 if __name__ == '__main__':
-  assert(battery_is_ok(25, 70, 0.7,print_string) is True)
-  assert(battery_is_ok(50, 85, 0,print_string) is False)
+  assert(battery_is_ok(25, 70, 0.7,print_dummy) is True)
+  assert(battery_is_ok(50, 85, 0,print_dummy) is False)
