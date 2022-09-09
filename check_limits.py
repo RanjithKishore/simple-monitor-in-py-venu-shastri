@@ -21,7 +21,7 @@ def isChargeRateOk(charge_rate):
 
 def print_string(str):
   print(str)
-  return void
+  return None
 
 
 if __name__ == '__main__':
