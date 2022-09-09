@@ -14,7 +14,7 @@ def isSocOk(soc):
   return False
 
 def isChargeRateOk(charge_rate):
-   if charge_rate < 0.8:
+  if charge_rate < 0.8:
     #print_string('Charge rate is out of range! ')
     return True
   return False
