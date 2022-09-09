@@ -1,21 +1,24 @@
 
 def battery_is_ok(temperature, soc, charge_rate):
-  #CALL fxns
+  
     return isTemperatureOk(temperature) and isSocOk(soc) and isChargeRateOk(charge_rate)
+  
 def isTemperatureOk(temperature):
   if temperature >0 and temperature < 45:
-    #print_string('Temperature is out of range!')
+    
     return True
   return False
+
 def isSocOk(soc):
   if soc > 20 and soc < 80:
-    #print_string('State of Charge is out of range!')
+    
     return True
   return False
 
 def isChargeRateOk(charge_rate):
   if charge_rate < 0.8:
-    #print_string('Charge rate is out of range! ')
+    
+    
     return True
   return False
 
